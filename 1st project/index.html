@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CHIYAA | Premium Nepali Tea</title>
+
+    <link rel="stylesheet" href="teaweb.css">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                CHIYAA<span>.</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#shop">Shop</a>
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+
+                <!-- CART -->
+                <button class="cart-button" id="cart-button">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="cart-count">0</span>
+
+                </button>
+
+                <button class="menu-button" id="menu-button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!-- ================= HERO ================= -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    ✦ PREMIUM NEPALI TEA
+                </p>
+
+                <h1>
+                    A cup of Nepal,
+                    <span>brewed with love.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Discover carefully selected tea leaves from
+                    the beautiful hills of Nepal. Fresh, authentic
+                    and made for moments that matter.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#shop" class="btn btn-dark">
+                        Shop Tea
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#about" class="btn btn-outline">
+                        Our Story
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong>25+</strong>
+                        <span>Tea Varieties</span>
+                    </div>
+
+                    <div>
+                        <strong>10k+</strong>
+                        <span>Happy Customers</span>
+                    </div>
+
+                    <div>
+                        <strong>100%</strong>
+                        <span>Natural</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="hero-circle"></div>
+
+               <img
+    src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=90"
+    alt="Premium Nepali Tea">
+
+                <div class="hero-rating">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <strong>4.9 / 5</strong>
+
+                    <small>
+                        Loved by tea lovers
+                    </small>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- ================= SHOP ================= -->
+        <section class="shop-section" id="shop">
+            <div class="section-top">
+                <div>
+
+                    <p class="eyebrow">
+                        OUR COLLECTION
+                    </p>
+
+                    <h2>
+                        Find your perfect
+                        <span>brew.</span>
+                    </h2>
+
+                </div>
+
+                <p>
+                    Carefully selected teas from
+                    the finest gardens of Nepal.
+                </p>
+
+            </div>
+            <!-- SEARCH + FILTER -->
+            <div class="shop-controls">
+
+                <div class="search-box">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+                        type="text"
+                        id="search-input"
+                        placeholder="Search tea..."
+                    >
+
+                </div>
+                <div class="filters">
+
+                    <button class="filter active" data-category="all">
+                        All
+                    </button>
+
+                    <button class="filter" data-category="black">
+                        Black Tea
+                    </button>
+
+                    <button class="filter" data-category="green">
+                        Green Tea
+                    </button>
+
+                    <button class="filter" data-category="herbal">
+                        Herbal
+                    </button>
+
+                    <button class="filter" data-category="masala">
+                        Masala
+                    </button>
+
+                </div>
+
+            </div>
+            <!-- PRODUCTS -->
+            <div class="products" id="products">
+                <!-- PRODUCT 1 -->
+                <article
+                    class="product-card"
+                    data-category="black"
+                    data-name="Ilam Golden Tea"
+                >
+                    <div class="product-image">
+
+                        <span class="product-tag">
+                            BESTSELLER
+                        </span>
+
+                        <button class="wishlist">
+                            ♡
+                        </button>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80"
+                            alt="Ilam Golden Tea">
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            BLACK TEA
+                        </p>
+
+                        <h3>
+                            Ilam Golden Tea
+                        </h3>
+
+                        <p class="product-description">
+                            Rich and aromatic tea from
+                            the famous hills of Ilam.
+                        </p>
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(124)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Rs. 650
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Ilam Golden Tea"
+                                data-price="650"
+                            >
+                                Add +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+                <!-- PRODUCT 2 -->
+                <article
+                    class="product-card"
+                    data-category="green"
+                    data-name="Himalayan Green">
+                    <div class="product-image">
+                        <span class="product-tag new">
+                            NEW
+                        </span>
+                        <button class="wishlist">
+                        </button>
+                        <img
+                            src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=600&q=80"
+                            alt="Himalayan Green Tea">
+                    </div>
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            GREEN TEA
+                        </p>
+                        <h3>
+                            Himalayan Green
+                        </h3>
+
+                        <p class="product-description">
+                            Light, refreshing and naturally
+                            full of goodness.
+                        </p>
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(98)</span>
+                        </div>
+
+                        <div class="product-bottom">
+                            <strong>
+                                Rs. 700
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Himalayan Green"
+                                data-price="700"
+                            >
+                                Add +
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!-- PRODUCT 3 -->
+                <article
+                    class="product-card"
+                    data-category="masala"
+                    data-name="Nepali Masala Chai">
+                    <div class="product-image">
+                        <button class="wishlist">
+                            ♡
+                        </button>
+                        <img
+                            src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=600&q=80"
+                            alt="Masala Chai">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">
+                            MASALA
+                        </p>
+                        <h3>
+                            Nepali Masala Chai
+                        </h3>
+
+                        <p class="product-description">
+                            Warm spices blended with
+                            traditional Nepali tea.
+                        </p>
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(86)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Rs. 550
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Nepali Masala Chai"
+                                data-price="550">
+                                Add +
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!-- PRODUCT 4 -->
+                <article
+                    class="product-card"
+                    data-category="herbal"
+                    data-name="Himalayan Herbs">
+                    <div class="product-image">
+
+                        <button class="wishlist">
+                        </button>
+                        <img
+                            src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80"
+                            alt="Herbal Tea">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">
+                            HERBAL
+                        </p>
+                        <h3>
+                            Himalayan Herbs
+                        </h3>
+                        <p class="product-description">
+                            A calming herbal blend inspired
+                            by the Himalayas.
+                        </p>
+                        <div class="rating">
+                            ★★★★★
+                            <span>(71)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Rs. 800
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Himalayan Herbs"
+                                data-price="800">
+                                Add +
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- ================= FEATURES ================= -->
+        <section class="features-section">
+            <div class="section-center">
+                <p class="eyebrow">
+                    WHY CHIYAA?
+                </p>
+
+                <h2>
+                    More than just
+                    <span>tea.</span>
+                </h2>
+
+                <p>
+                    We believe every cup should tell a story.
+                </p>
+
+            </div>
+            <div class="features">
+                <div class="feature">
+
+                    <div class="feature-icon">
+                        🌿
+                    </div>
+
+                    <h3>
+                        100% Natural
+                    </h3>
+
+                    <p>
+                        No artificial flavors or
+                        unnecessary additives.
+                    </p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        🏔️
+                    </div>
+                    <h3>
+                        From Nepal
+                    </h3>
+                    <p>
+                        Sourced from Nepal's finest
+                        tea gardens.
+                    </p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        📦
+                    </div>
+                    <h3>
+                        Fresh Delivery
+                    </h3>
+                    <p>
+                        Carefully packed and delivered
+                        fresh to your doorstep.
+                    </p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        ❤️
+                    </div>
+                    <h3>
+                        Made With Love
+                    </h3>
+                    <p>
+                        Every blend is created with
+                        passion and care.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- ================= ABOUT ================= -->
+        <section class="about-section" id="about">
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=900&q=80"
+                    alt="Tea plantation">
+            </div>
+            <div class="about-content">
+                <p class="eyebrow">
+                    OUR STORY
+                </p>
+                <h2>
+                    From the hills of Nepal
+                    <span>to your cup.</span>
+                </h2>
+                <p>
+                    CHIYAA was born from a simple love
+                    for authentic Nepali tea.
+                </p>
+                <p>
+                    Our journey begins in the peaceful
+                    tea gardens of Ilam, where every leaf
+                    is carefully selected.
+                </p>
+                <a href="#" class="story-link">
+                    Discover our story
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </section>
+        <!-- ================= REVIEWS ================= -->
+        <section class="reviews-section" id="reviews">
+            <div class="section-center">
+                <p class="eyebrow">
+                    CUSTOMER LOVE
+                </p>
+                <h2>
+                    What tea lovers
+                    <span>say.</span>
+                </h2>
+            </div>
+            <div class="reviews">
+
+                <div class="review-card">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "The Ilam Golden Tea is absolutely
+                        amazing. It tastes fresh and authentic."
+                    </p>
+
+                    <strong>
+                        Rahul K.
+                    </strong>
+
+                    <small>
+                        Kathmandu
+                    </small>
+
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+                    <p>
+                        "Beautiful packaging and incredible
+                        tea. Definitely ordering again!"
+                    </p>
+
+                    <strong>
+                        Sarah M.
+                    </strong>
+
+                    <small>
+                        Pokhara
+                    </small>
+                </div>
+                <div class="review-card">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+                    <p>
+                        "Finally found a tea brand that
+                        actually feels premium."
+                    </p>
+                    <strong>
+                        Ayush S.
+                    </strong>
+                    <small>
+                        Lalitpur
+                    </small>
+                </div>
+            </div>
+        </section>
+        <!-- ================= CTA ================= -->
+        <section class="cta-section">
+            <p class="eyebrow">
+                YOUR NEXT FAVORITE CUP
+            </p>
+            <h2>
+                Ready to brew
+                something <span>good?</span>
+            </h2>
+            <a href="#shop" class="btn btn-dark">
+                Shop Collection
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </section>
+    </main>
+    <!-- ================= FOOTER ================= -->
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo">
+                    CHIYAA<span>.</span>
+                </div>
+                <p>
+                    Premium Nepali tea,
+                    delivered with love.
+                </p>
+            </div>
+            <div>
+                <h4>
+                    Explore
+                </h4>
+
+                <a href="#home">Home</a>
+                <a href="#shop">Shop</a>
+                <a href="#about">About</a>
+
+            </div>
+            <div>
+                <h4>
+                    Support
+                </h4>
+
+                <a href="#">Contact</a>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+
+            </div>
+            <div>
+
+                <h4>
+                    Follow us
+                </h4>
+
+                <div class="social-icons">
+
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            © 2026 CHIYAA. Made with ❤️ in Nepal.
+        </div>
+    </footer>
+    <!-- ================= CART OVERLAY ================= -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <!-- ================= CART DRAWER ================= -->
+    <aside class="cart-drawer" id="cart-drawer">
+
+        <div class="cart-header">
+
+            <div>
+
+                <p class="eyebrow">
+                    YOUR BAG
+                </p>
+
+                <h2>
+                    Your Cart
+                </h2>
+
+            </div>
+
+            <button
+                class="close-cart"
+                id="close-cart"
+            >
+                ×
+            </button>
+        </div>
+        <div
+            class="cart-items"
+            id="cart-items"
+        >
+            <!-- JavaScript adds products here -->
+
+        </div>
+        <div class="cart-footer">
+
+            <div class="cart-total">
+                <span>
+                    Total
+                </span>
+                <strong id="cart-total">
+                    Rs. 0
+                </strong>
+            </div>
+            <button class="checkout-button">
+                Proceed to Checkout
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </aside>
+    <script src="teaweb.js"></script>
+</body>
+</html>
